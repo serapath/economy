@@ -1,0 +1,4 @@
+node_modules/
+BUILD/
+!SOURCE/node_modules/
+npm-debug.log

@@ -1,0 +1,33 @@
+{
+  "name": "economy",
+  "version": "1.0.1",
+  "description": "balance sheet based simulation of monetary economy",
+  "main": "SOURCE/index.js",
+  "scripts": {
+    "bundle": "mkdir -p BUILD/ && browserify SOURCE/index.js -o BUILD/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "money",
+    "simulation",
+    "banking",
+    "economy"
+  ],
+  "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
+  "license": "MIT",
+  "dependencies": {
+    "getval": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serapath/economy.git"
+  },
+  "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
+  "bugs": {
+    "url": "https://github.com/serapath/economy/issues"
+  },
+  "homepage": "https://github.com/serapath/economy"
+}
