@@ -1,4 +1,18 @@
 # Economy
+
+**For now this is just a concept...**
+
+## GOAL
+I'd like to define an easy javascript based `DSL` (=domain specific languages) that is easy to read and allows to translate stories about people doing business in certain ways (e.g. selling goods, taking loans, transfering money) that affect the balance sheets of businesses, banks, governments and even central banks into a series of transactions that represent whats going on. This is usually dont through writing down a series of `accounting records`, but that's not very readable to laymen's eyes, so maybe this can be improved so that it's really easy to use that language while talking about the economy and about whats going on in detail in certain scenarios.
+
+**In general:**
+* There are 2 categories of `accounting records`. Those who affect profit/loss and those that dont.
+* There are 4 types of `accounting records`.
+  * balance sheet extension records (e.g. taking a loan)
+  * balance sheet shortening (e.g. paying back a loan)
+  * exchanging asset positions (e.g. investing)
+  * exchanging liabilities/equity (e.g. a creditor converting into a shareholder)
+
 ```js
   var economy = require('economy');
   var e       = economy(/*pass in custom balance sheet schema if wanted*/);
