@@ -1,6 +1,7 @@
 # Economy
 
-**For now this is just a concept...**
+**For now this is just the beginning of a concept...**
+Suggestions for improvements are very welcome :-)
 
 ## GOAL
 I'd like to define an easy javascript based `DSL` (=domain specific languages) that is easy to read and allows to translate stories about people doing business in certain ways (e.g. selling goods, taking loans, transfering money) that affect the balance sheets of businesses, banks, governments and even central banks into a series of transactions that represent whats going on. This is usually dont through writing down a series of `accounting records`, but that's not very readable to laymen's eyes, so maybe this can be improved so that it's really easy to use that language while talking about the economy and about whats going on in detail in certain scenarios.
@@ -12,6 +13,13 @@ I'd like to define an easy javascript based `DSL` (=domain specific languages) t
   * balance sheet shortening (e.g. paying back a loan)
   * exchanging asset positions (e.g. investing)
   * exchanging liabilities/equity (e.g. a creditor converting into a shareholder)
+ 
+The right side of a balance sheet is traditionally roughly divided into `equity` and `liabilities`, but all listet positions are in some ways very similar.
+* `priority` (defines who receives liquidation money first in case of insolvency)
+* `return` (called "interest" in case of liabilities and "dividends" in case of equity)
+* `voting rights` (usually just for equity, but contract law allows for all kinds of constructions)
+* `constraints` (how flexible and "for sure" can the position be sold/liquidated)
+
 
 ```js
   var economy = require('economy');
