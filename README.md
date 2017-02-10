@@ -3,6 +3,8 @@
 **For now this is just the beginning of a concept...**
 Suggestions for improvements are very welcome :-)
 
+Please also check out the [issues](https://github.com/serapath/economy/issues), especially #6 #4 & #3
+
 ## GOAL
 I'd like to define an easy javascript based `DSL` (=domain specific languages) that is easy to read and allows to translate stories about people doing business in certain ways (e.g. selling goods, taking loans, transfering money) that affect the balance sheets of businesses, banks, governments and even central banks into a series of transactions that represent whats going on. This is usually dont through writing down a series of `accounting records`, but that's not very readable to laymen's eyes, so maybe this can be improved so that it's really easy to use that language while talking about the economy and about whats going on in detail in certain scenarios.
 
